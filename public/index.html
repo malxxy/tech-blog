@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Tech Blog</title>
+</head>
+
+<body>
+    <header class="columns has-background-dark">
+        <nav class="navbar has-background-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-light" href="#home">
+                    Home
+                  </a>
+                  <a class="navbar-item has-text-light" href="#login">
+                    Login
+                  </a>
+                  <a class="navbar-item has-text-light" href="#signup">
+                    Signup
+                  </a>
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <!-- navbar start, navbar end -->
+            </div>
+          </nav>
+        </div>
+    </header>
+
+<section class="hero is-medium is-link">
+  <div class="hero-body">
+    <p class="title">
+      The Tech Blog
+    </p>
+    <p class="subtitle">
+      Fullstack development tips and tricks from top software engineers. 
+    </p>
+  </div>
+</section>
+
+<div class="box">
+<section class="container is-fluid">
+    <section class="signup">
+        <div>
+            <h2>Sign Up</h2>
+        </div>
+        <div class="field">
+            <label class="label">First Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Text input">
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-success" type="text" placeholder="Text input" value="bulma">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                </span>
+            </div>
+            <p class="help is-success">This username is available</p>
+        </div>
+
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+        </div>
+
+        <div class="field">
+            <label class="label">Password</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Password">
+            </div>
+            <p class="help is-danger">The password must be at least 8 characters.</p>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link">Sign Up</button>
+            </div>
+            <div class="control">
+                <button class="button is-link is-light">Cancel</button>
+            </div>
+        </div>
+    </section>
+</section>
+    </div>
+
+<div class="box">
+<section class="container is-fluid"">
+    <section class="login">
+        <div>
+            <h2>Login</h2>
+        </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="example@example.com">
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="password">
+            </div>
+          </div>
+
+          <div class="control">
+            <button class="button is-link">Login</button>
+          </div>
+    </section>
+</section>
+</div>
+
+<footer class="footer has-background-dark has-text-light">
+    <div class="content has-text-centered">
+      <p>
+        <strong class="has-text-light">The Tech Blog</strong> by <a href="https://github.com/malxxy">Malia</a>.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
